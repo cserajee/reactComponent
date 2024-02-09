@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+/*import BirthdayBuddy from "./01Birthday/BirthdayBuddy";
+import TourApp from "./02Tour/TourApp";
+import ReviewApp from "./03Review/ReviewApp";
+import AccordionApp from "./04accordion/AccordionApp";
+import AccordionSingleViewApp from "./04accordionSingleView/AccordionSingleViewApp";
+import MenuApp from "./05Menu/MenuApp";*/
+import TabApp from "./06tab/TabApp";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <TabApp />
+    </>
   );
 }
 
